@@ -1,0 +1,8 @@
+grid-template-coloumns &
+grid-template-rows 
+mendefinisikikan kolom / baris dengan cara menuliskan nilai
+dipisahkan oleh spasi. nilai mereprentasikan ukuran grid track
+dan spasi merepresentasikan grid line
+
+explicit = ketika kita secara jelas menulis jelas coloumn dan baris
+inplicit = otomatis ditentukan oleh grid tersebut

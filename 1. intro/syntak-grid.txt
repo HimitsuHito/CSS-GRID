@@ -1,0 +1,10 @@
+-grid container adalah pembungukus jika ditambahkan 
+display :grid;
+-Grid Item  = element yang berada 1 level dibawah grid container
+-grid Line = garis horizontal dan vertikal
+-grid cell = perpotongan antar Line
+-grid area = kumpulan lebih dari satu cell(tidak boleh ngacak)
+-grid track = ukuran cell maupun secara horizontal maupun vertikal
+-grid gap = jarak antar cell
+
+
