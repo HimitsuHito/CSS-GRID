@@ -6,3 +6,12 @@ dan spasi merepresentasikan grid line
 
 explicit = ketika kita secara jelas menulis jelas coloumn dan baris
 inplicit = otomatis ditentukan oleh grid tersebut
+
+grid auto columns & grid-auto-rows = berfungsi mengatur inplicit yang mengatur 
+
+grid-auto-flow = mengatur penempatan item / cell pada grid track,termausk yang ditulis secara implicit
+grid-auto-flow = - row
+                - column = mengalir ke kanan
+                -row dense
+                - column dense
+ini akan kesamping kecuali jika dikasih grid-auto-rows 
