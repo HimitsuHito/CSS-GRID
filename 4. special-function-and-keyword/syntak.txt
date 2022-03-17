@@ -20,3 +20,8 @@ grid-template-coloumns:repeat(auto-fit |auto-fill,100px);
 auto-fit = akan berhenti pada diakhir explicit grid dam akan berakhir di walaupun diperbesar maka akan tetap sama.
 auto-fill= akan berhenti jika masih tersedia satu coloum / rows. dan columns terakhir akan mengkuti satu blok terakhir
 
+
+minmanx()
+menentukan ukuran minimal dan maksimal dari grid track
+grid-template-colums:minmax(200px,300px)
+jika bisa maksimal maka akan gunakan maksimal jika tidak bisa akan menggunakan minimal
