@@ -1,0 +1,22 @@
+repeat()
+menentukan ukuran grid track secara berulang
+contoh= grid-template-columns:1fr 1fr 1fr 1fr;
+bisa diringkas menjadi
+grid-tempalte-columns:repeat(4, 1fr); maka hasilnya sama
+dan bisa digunakan untuk rows
+
+mix-content & max-content 
+menentukan seberapa besar ukuran grid track berdasarkan content pada sebuah item
+contoh : grid-template-coloumns:min-content | max-content;
+min-content =  sesuai dengan content.sesuai dengan angka terakhir
+contoh min-content = ferry wilana maka akan menjadi ferry diatas wilana dibawah
+max-content = besarnya akan pada diakhir content
+
+auto-fill & auto-fit
+menentukan jumlah item untuk berada pada grid track
+cocok untuk membuat responsif
+contoh :
+grid-template-coloumns:repeat(auto-fit |auto-fill,100px);
+auto-fit = akan berhenti pada diakhir explicit grid dam akan berakhir di walaupun diperbesar maka akan tetap sama.
+auto-fill= akan berhenti jika masih tersedia satu coloum / rows. dan columns terakhir akan mengkuti satu blok terakhir
+
