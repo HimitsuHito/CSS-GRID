@@ -1,0 +1,7 @@
+grid-template-areas berfungsi untuk menamakan area tersebut
+atau bisa menggunakan shorthand grid-template:rows dlu baru columns
+grid-gap membuat jarak antara cell . bisa salah satu antara vertikal dan horizontal
+row-gap :untuk ke vertikal
+column-gap :untuk ke horizontal
+atau untuk keduanya 
+grid-gap lama -> yang baru gap:;
