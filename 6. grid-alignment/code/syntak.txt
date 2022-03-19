@@ -1,0 +1,44 @@
+justify-items   : berfungsi untuk merubah posisi pada items secara horizontal
+justify-items   : - start ; posisi sebelah kiri
+                  - end ; posisi sebelah kanan
+                  - center ; ditengah
+                  - strecth ; posisi default
+
+align-items : berfungsi untuk merubah pada sumbu vertikal
+align-items : - start ; posisi nempel keatas
+            : - end ; nempel kebawah
+            : - center ; ditengah
+            : - strecth ; posisi default
+
+atau jika ingin keduanya menggunakan short hand 
+place-items : justify-content , align items ;
+
+
+justify-content : mengatur posisi seluruh grid container pada sumbu horizontal
+ini bisa dilakukan ketika ukuran total grid lebih kecil dari ukuran containernyam biasanya ketika grid items nya menggunakan ukuran yang fixed(px)
+
+justify-content :start | end | center | strech|space-around | space-bertween| space-evenly
+justify-content : - start ; maka akan pindah ke paling kiri
+                : - end ; maka akan pindah ke kanan
+                : - center ; tepat ditengah;
+                : - strecth ; posisi default
+                : - space-around ; kiri kanan akan selalu setengah  dari kiri dan kanan
+                : - space-between; mepet kiri dan kanan dan akan medistubiskan di tengah"
+                : = space-evenly ; dibagi rata
+
+
+align-content : mengatur posisi seluruh grid container pada sumbu vertikal
+ini bisa dilakukan ketika ukuran total grid lebih kecil dari ukuran containernyam biasanya ketika grid items nya menggunakan ukuran yang fixed(px)
+
+align-content :start | end | center | strech|space-around | space-bertween| space-evenly
+align-content : - start ; maka akan pindah ke paling atas
+                : - end ; maka akan pindah ke bawah
+                : - center ; tepat ditengah;
+                : - strecth ; posisi default
+                : - space-around ; memberi jarak setengah untuk atas dan bawah
+                : - space-between; atas bawah tidak ada jarak dan akan dibagi di tengah
+                : = space-evenly ; dibagi rata
+
+atau jika ingin menggunakan shorthand gunakan
+place-content : justify-content terlebih dahulu align-content;
+contohh : place-content : center end ;

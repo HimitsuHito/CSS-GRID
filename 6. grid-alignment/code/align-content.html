@@ -10,20 +10,22 @@
         padding: 0;
       }
       .container {
+        background-color: blue;
         width: 80%;
-        height: 700px;
+        height: 500px;
         margin: auto;
         display: grid;
         grid-template-columns: 120px 180px 120px;
         grid-template-rows: 80px 80px;
         gap: 5px;
-        /* align-content: start; */
+        /* grid-auto-rows: 80px; */
+        align-content: start;  /* jika ingin menggunakan start perhatikan inplicitnya . karena tidak sesuai yang dimulai dari 7-12
         /* align-content: end; */
         /* align-content: center; */
         /* align-content: stretch; */
         /* align-content: space-around; */
         /* align-content: space-between; */
-        align-content: space-evenly;
+        /* align-content: space-evenly; */
       }
 
       .items {
@@ -46,6 +48,10 @@
       <div class="items">7</div>
       <div class="items">8</div>
       <div class="items">9</div>
+      <div class="items">10</div>
+      <div class="items">11</div>
+
+
     </div>
   </body>
 </html>
